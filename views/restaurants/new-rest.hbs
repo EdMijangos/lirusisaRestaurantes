@@ -1,0 +1,21 @@
+<h1>Agrega un restaurant</h1>
+<form action="/new" method="POST">
+    <p>
+        Name:
+        <input type="text" name="name">
+    </p>
+    <p>
+        Address:
+        <input type="text" name="location[address]">
+    </p>
+    <p>
+        Latitude:
+        <input type="text" name="location[coordinates][1]">
+    </p>
+    <p>
+        Longitude:
+        <input type="text" name="location[coordinates][0]">
+    </p>
+    <input type="submit" value="guardalo ">
+
+</form>
